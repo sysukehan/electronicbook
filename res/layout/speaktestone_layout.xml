@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/study_backdround">
+    <LinearLayout
+        android:layout_width="450dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_weight="1"
+        android:contentDescription="@null"
+        android:id="@+id/study_picture_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:src="@drawable/study_picture_1"/>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/study_picture_2"/>
+        <ImageView
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/study_picture_3"/>
+    </LinearLayout>
+    </LinearLayout>
+	<FrameLayout
+	    android:layout_width="150dp"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="20dp"
+        android:layout_marginLeft="23dp"
+        android:orientation="vertical">
+	    <TextView
+	        android:id="@+id/title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:background="@drawable/title_border"
+	        android:text="@string/booktitle"
+	        android:gravity="center"
+	        android:textColor="#FFFFFF"
+	        android:textSize="20sp"/>
+	    <ImageView
+	        android:contentDescription="@null"
+	        android:id="@+id/recordone"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="100dp"
+	        android:src="@drawable/play"/>
+	    <TextView
+	        android:id="@+id/test_question_one"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="和"
+	        android:textColor="#FFFFFF"
+	        android:textSize="20sp"
+	        android:background="@drawable/subtitle_border"/>
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="290dp"
+		    android:orientation="horizontal">
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/red_border"
+		        android:textColor="#FF0000"
+		        android:text="@string/speakingtitle"
+		        android:textSize="20sp"
+		        android:layout_marginRight="30dp"/>
+		    <TextView
+		        android:id="@+id/speaktestoneyes"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/red_border"
+		        android:textColor="#FF0000"
+		        android:text="@string/righttitle"
+		        android:textSize="20sp"/>
+<!-- 		    <TextView -->
+<!-- 		        android:id="@+id/speaktestoneno" -->
+<!-- 		        android:layout_width="wrap_content" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:background="@drawable/red_border" -->
+<!-- 		        android:textColor="#FF0000" -->
+<!-- 		        android:textSize="16sp" -->
+<!--  		        android:text="@string/wrongtitle"/> -->
+		</LinearLayout>
+	</FrameLayout>
+</LinearLayout>

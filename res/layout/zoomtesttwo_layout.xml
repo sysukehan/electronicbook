@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/study_backdround">
+    <FrameLayout
+        android:id="@+id/zoomarea2"
+        android:layout_width="420dp"
+        android:layout_height="330dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp">
+        <ImageView
+            android:contentDescription="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zoom_2_background"/>
+        <ImageView
+            android:id="@+id/zoomimage_2"
+            android:contentDescription="@null"
+            android:layout_width="105dp"
+            android:layout_height="108.3dp"
+            android:layout_marginLeft="120.6dp"
+            android:layout_marginTop="156.6dp"
+            android:background="@drawable/zoom_2_item"/>
+    </FrameLayout>
+    <FrameLayout
+	    android:layout_width="150dp"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:orientation="vertical">
+	    <TextView
+	        android:id="@+id/title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:background="@drawable/title_border"
+	        android:text="@string/booktitle"
+	        android:gravity="center"
+	        android:textColor="#FFFFFF"
+	        android:textSize="20sp"/>
+	    <TextView
+	        android:id="@+id/test_question_eleven"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="和"
+	        android:textColor="#FFFFFF"
+	        android:textSize="18sp"
+	        android:background="@drawable/subtitle_border"/>
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="300dp"
+		    android:orientation="horizontal">
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/red_border"
+		        android:textColor="#FF0000"
+		        android:text="@string/zoomtitle"
+		        android:textSize="20sp"
+		        android:layout_marginRight="30dp"/>
+		    <TextView
+		        android:id="@+id/zoomtesttwoyes"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/red_border"
+		        android:textColor="#FF0000"
+		        android:text="@string/righttitle"
+		        android:textSize="20sp"/>
+<!-- 		    <TextView -->
+<!-- 		        android:id="@+id/zoomtesttwono" -->
+<!-- 		        android:layout_width="wrap_content" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:background="@drawable/red_border" -->
+<!-- 		        android:textColor="#FF0000" -->
+<!-- 		        android:textSize="16sp" -->
+<!-- 		        android:text="@string/wrongtitle"/> -->
+		</LinearLayout>
+	</FrameLayout>
+</LinearLayout>

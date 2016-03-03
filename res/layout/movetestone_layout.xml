@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/movelayout_1"
+    android:background="@drawable/study_backdround">
+    <ImageView
+        android:contentDescription="@null"
+        android:layout_width="350dp"
+        android:layout_height="330dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/move_1_background"/>
+    <TextView
+	    android:id="@+id/title"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="495dp"
+	    android:layout_marginTop="15dp"
+	    android:background="@drawable/title_border"
+	    android:text="@string/booktitle"
+	    android:gravity="center"
+	    android:textColor="#FFFFFF"
+	    android:textSize="20sp"/>
+    <TextView
+	    android:id="@+id/test_question_seven"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="472dp"
+	    android:layout_marginTop="70dp"
+	    android:text="@string/question_seven"
+	    android:textColor="#FFFFFF"
+	    android:textSize="16sp"
+	    android:background="@drawable/subtitle_border"/>
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="482dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/blue_border"/>
+	<LinearLayout
+		 android:layout_width="match_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginTop="315dp"
+		 android:layout_marginLeft="475dp"
+		 android:orientation="horizontal">
+		    <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/red_border"
+		        android:textColor="#FF0000"
+		        android:text="@string/movetitle"
+		        android:textSize="20sp"
+		        android:layout_marginRight="30dp"/>
+		    <TextView
+		        android:id="@+id/movetestoneyes"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/red_border"
+		        android:textColor="#FF0000"
+		        android:text="@string/righttitle"
+		        android:textSize="20sp"/>
+<!-- 		    <TextView -->
+<!-- 		        android:id="@+id/movetestoneno" -->
+<!-- 		        android:layout_width="wrap_content" -->
+<!-- 		        android:layout_height="wrap_content" -->
+<!-- 		        android:background="@drawable/red_border" -->
+<!-- 		        android:textColor="#FF0000" -->
+<!-- 		        android:textSize="16sp" -->
+<!-- 		        android:text="@string/wrongtitle"/> -->
+		</LinearLayout>
+	<ImageView
+        android:contentDescription="@null"
+        android:id="@+id/moveimage_1"
+        android:layout_width="130.2dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="235.3dp"
+        android:layout_marginLeft="74.7dp"
+        android:background="@drawable/move_1_item"/>
+</FrameLayout>

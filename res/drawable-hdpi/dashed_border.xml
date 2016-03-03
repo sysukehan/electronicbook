@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape>
+            <!-- dashGap 虚线间的宽度 
+            	 dashWidth 虚线的长度
+            	 width 虚线的宽度
+            	 color 虚线的颜色 -->
+            <stroke
+                    android:dashGap="15dp"
+                    android:dashWidth="15dp"
+                    android:width="5dp"
+                    android:color="#FF0000" />
+
+            <solid android:color="#00000000" />
+
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+
+</layer-list>

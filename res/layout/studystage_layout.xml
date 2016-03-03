@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/study_backdround">
+    <FrameLayout
+        android:id="@+id/study_framelayout"
+        android:layout_width="435dp"
+        android:layout_height="340dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+    <ImageView
+        android:contentDescription="@null"
+        android:id="@+id/study_picture_container"
+        android:src="@drawable/study_picture_16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+	<ImageView
+	    android:alpha="0"
+	    android:contentDescription="@null"
+	    android:id="@+id/touchsign"
+	    android:layout_width="100dp"
+	    android:layout_height="100dp"
+	    android:layout_marginLeft="3dp"
+	    android:layout_marginTop="3dp"
+	    android:src="@drawable/smile"/>
+    <TextView
+        android:alpha="0"
+        android:id="@+id/border"
+        android:layout_width="173dp"
+        android:layout_height="177dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/dashed_border"/>
+
+    <ImageView
+        android:id="@+id/small_picture_container"
+        android:layout_width="340dp"
+        android:layout_height="215dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="143dp"
+        android:contentDescription="@null" />
+
+    </FrameLayout>
+	<LinearLayout
+	    android:id="@+id/study_linearlayout"
+	    android:layout_width="150dp"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:orientation="vertical">
+	    <TextView
+	        android:id="@+id/title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:background="@drawable/title_border"
+	        android:text="@string/booktitle"
+	        android:gravity="center"
+	        android:textColor="#FFFFFF"
+	        android:textSize="95sp"/>
+<!-- 	    <TextView -->
+<!-- 	        android:id="@+id/study_subtitles_container" -->
+<!-- 	        android:layout_width="wrap_content" -->
+<!-- 	        android:layout_height="wrap_content" -->
+<!-- 	        android:textColor="#FFFFFF" -->
+<!-- 	        android:layout_marginTop="40dp" -->
+<!-- 	        android:textSize="18sp" -->
+<!-- 	        android:background="@drawable/subtitle_border"/> -->
+	</LinearLayout>
+</LinearLayout>
